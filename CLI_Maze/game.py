@@ -2,7 +2,7 @@ import curses
 import random
 from constants import MAZE_MAP, WARP_POINTS, COLOR_PAIR, ITEM_POSITIONS, ITEM_EFFECTS, ITEM_DISPLAY_NAMES
 from enemy_logic import move_enemies, spawn_random_enemy
-
+#test
 class MazeGame:
     def __init__(self):
         self.maze = [row[:] for row in MAZE_MAP]
